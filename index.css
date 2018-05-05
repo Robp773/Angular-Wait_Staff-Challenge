@@ -1,0 +1,74 @@
+
+body{
+     text-align: center;
+ }
+#mealDetails, #chargesEarnings{
+    display: inline-block;
+    width: 35%;
+    height: 500px;
+    vertical-align: top;
+}
+#mealDetails{
+    border: 1px solid black;
+}
+
+label, input{
+    display: inline-block;
+    margin: 3px;
+}
+label{
+    text-align: right;
+    width: 28%;
+}
+input{
+    width: 10%;
+}
+
+#submitCancel{
+   margin-top: 125px;
+}
+
+#chargesEarnings{
+    text-align: center;
+}
+
+#earnings, #charges{
+    margin: auto;
+    border: 1px solid black;
+    height: 246.5px;
+    width: 75%;
+}
+#charges{
+    margin-bottom: 5px;
+}
+.chargesLabel, .chargesValue, .earningsLabel, .earningsValue{
+    display: inline-block;
+}
+.chargesLabel, .earningsLabel{
+    width: 30%;
+}
+.chargesValue, .earningsValue{
+    width: 5%;
+}
+.underline{
+    margin: auto;
+    width: 35%;
+    border-top: 1px solid black;
+}
+
+.headlineDiv{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+#resetBtn{
+    width: 10%;
+    padding: 5px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#chargesParent, #totalParent, #form{
+    position: relative;
+    top: 25%;
+}
